@@ -249,5 +249,3 @@ def uploadFile():
         return render_template("display.html",accd = accd, pred = pred, recd = recd, f1d = fd, accp = accp, prep = prep, recp = recp, f1p = fp,accr = accr, prer = prer, recr = recr, f1r = fr,accu = accu, preu = preu, recu = recu, f1u = fu)
     return render_template("index.html")
 
-if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0')
